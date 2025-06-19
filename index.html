@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Film Zalı</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://cinemastercard.az/site/templates/images/cpluslogo.svg" alt="Logo" />
+    </div>
+    
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    
+    <ul class="nav-links" id="nav-links">
+      <li><a href="movie">Ana səhifə</a></li>
+      <li><a href="#">Filmlər</a></li>
+      <li><a href="#xidmet">Xidmətlər</a></li>
+      <li><a href="#about">Haqqımızda</a></li>
+    </ul>
+  </nav>
+  <section class="search-section">
+  <form class="search-form">
+    <input type="text" placeholder="Film axtar..." id="searchInput" />
+    <button type="submit">Axtar</button>
+  </form>
+</section>
+
+  <section class="hero">
+  <div class="hero-content">
+    <h1>CinemaMasterCard-a xoş gəlmisiniz</h1>
+    <p>Ən son filmləri bizimlə izləyin!</p>
+  </div>
+</section>
+
+<section class="slider" id="xidmet">
+  <div class="slide-track">
+    <div class="slide"><img src="https://cinemastercard.az/site/assets/files/0/35/18/371/mission-700x1000.350x0.jpg" alt="Film 1"></div>
+    <div class="slide"><img src="https://cinemastercard.az/site/assets/files/0/36/04/577/28-let-700x1000.350x0.jpg" alt="Film 2"></div>
+    <div class="slide"><img src="https://cinemastercard.az/site/assets/files/0/36/43/648/serdetc-700x1000.350x0.jpg" alt="Film 3"></div>
+    <div class="slide"><img src="https://cinemastercard.az/site/assets/files/0/35/93/453/tagiyev-2-700x1000.350x0.jpg" alt="Film 4"></div>
+    <div class="slide"><img src="https://cinemastercard.az/site/assets/files/0/33/49/348/qapi_poster_digital_vers_-_original.350x0.jpg" alt=""></div>
+
+    <!-- Loop üçün eyni şəkillər ikinci dəfə -->
+    <div class="slide"><img src="https://cinemastercard.az/site/assets/files/0/35/18/371/mission-700x1000.350x0.jpg" alt="Film 1"></div>
+    <div class="slide"><img src="https://cinemastercard.az/site/assets/files/0/36/04/577/28-let-700x1000.350x0.jpg" alt="Film 2"></div>
+    <div class="slide"><img src="https://cinemastercard.az/site/assets/files/0/36/43/648/serdetc-700x1000.350x0.jpg" alt="Film 3"></div>
+    <div class="slide"><img src="https://cinemastercard.az/site/assets/files/0/35/93/453/tagiyev-2-700x1000.350x0.jpg" alt="Film 4"></div>
+  </div>
+</section>
+
+<!-- Filmlər Kartları Bölməsi -->
+<section class="movie-cards" >
+  <h2>Ən son filmlər</h2>
+  <div class="cards-container">
+
+    <div class="movie-card">
+      <img src="https://cinemastercard.az/site/assets/files/0/35/18/371/mission-700x1000.350x0.jpg" alt="Film 1" />
+      <div class="movie-info">
+        <p><strong>Dil:</strong> AZ / EN</p>
+        <p><strong>Qiymət:</strong> 8 AZN</p>
+        <p><strong>Yaş:</strong> +16</p>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="https://cinemastercard.az/site/assets/files/0/36/04/577/28-let-700x1000.350x0.jpg" alt="Film 2" />
+      <div class="movie-info">
+        <p><strong>Dil:</strong> TR / AZ</p>
+        <p><strong>Qiymət:</strong> 7 AZN</p>
+        <p><strong>Yaş:</strong> +18</p>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="https://cinemastercard.az/site/assets/files/0/36/43/648/serdetc-700x1000.350x0.jpg" alt="Film 3" />
+      <div class="movie-info">
+        <p><strong>Dil:</strong> EN / RU</p>
+        <p><strong>Qiymət:</strong> 9 AZN</p>
+        <p><strong>Yaş:</strong> +12</p>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="https://cinemastercard.az/site/assets/files/0/36/04/587/materialistka-700x1000.350x0.jpg" alt="Film 4" />
+      <div class="movie-info">
+        <p><strong>Dil:</strong> AZ</p>
+        <p><strong>Qiymət:</strong> 6 AZN</p>
+        <p><strong>Yaş:</strong> +18</p>
+      </div>
+    </div>
+
+       <div class="movie-card">
+      <img src="https://cinemastercard.az/site/assets/files/0/33/49/348/qapi_poster_digital_vers_-_original.350x0.jpg" alt="Film 4" />
+      <div class="movie-info">
+        <p><strong>Dil:</strong> AZ</p>
+        <p><strong>Qiymət:</strong> 6 AZN</p>
+        <p><strong>Yaş:</strong> +16</p>
+      </div>
+    </div>
+       
+  </div>
+</section>
+<section class="register-section">
+  <h2>Qeydiyyat Formu</h2>
+  <form class="register-form">
+    <div class="form-group">
+      <label for="name">Ad:</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="surname">Soyad:</label>
+      <input type="text" id="surname" name="surname" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+
+    <div class="form-group">
+      <label for="password">Şifrə:</label>
+      <input type="password" id="password" name="password" required />
+    </div>
+
+    <div class="form-group">
+      <label for="confirm-password">Şifrə təkrarı:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required />
+    </div>
+
+    <button type="submit">Qeydiyyatdan keç</button>
+  </form>
+</section>
+    <section id="about" class="about-section">
+  <h2>Haqqımızda</h2>
+  <p>
+    Film Zalı, kino sevənlər üçün ən son filmləri və kino xəbərlərini təqdim edən müasir və istifadəçi dostu platformadır.
+    Məqsədimiz izləyicilərə keyfiyyətli və rahat xidmət göstərməkdir. Burada ən yeni filmlər haqqında məlumat əldə edə, 
+    qeydiyyatdan keçərək əlavə funksionallıqlardan yararlana bilərsiniz.
+  </p>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-links">
+      <a href="#">Haqqımızda</a>
+      <a href="#">Xidmətlər</a>
+      <a href="#">Qaydalar</a>
+    </div>
+
+    <div class="footer-links">
+      <a href="#">FAQ</a>
+      <a href="#">Vakansiyalar</a>
+      <a href="#">Əlaqə</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-telegram-plane"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <div class="footer-apps">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" />
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Bütün hüquqlar qorunur. © CineMastercard LLC 2012–2025</p>
+    <a href="#">Saytın tam versiyası</a>
+    
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

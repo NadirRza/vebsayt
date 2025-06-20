@@ -159,7 +159,8 @@ body {
 }
 
 .movie-card:hover {
-  transform: translateY(-5px);
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .movie-card img {
@@ -365,4 +366,82 @@ button[type="submit"]:hover {
 
 .search-form button:hover {
   background-color: #d4ac0d;
+}
+.banner-section {
+  padding: 40px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.banner-section img {
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.coming-header {
+  background: linear-gradient(to right, #000000dd, #000000aa), url('https://wallpaperaccess.com/full/3950207.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.coming-header h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  color: #f1c40f;
+}
+
+.coming-header p {
+  font-size: 18px;
+  color: #ddd;
+}
+
+.coming-movies {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movie-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.movie-info {
+  padding: 15px;
+  text-align: left;
+}
+
+.movie-info h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #333;
+}
+
+.movie-info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
 }
